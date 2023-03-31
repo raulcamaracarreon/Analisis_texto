@@ -19,7 +19,6 @@ def analyze_text(text):
     return num_words, num_letters
 
 st.title("Análisis de Texto")
-st.write("Qué transa Sargento, hice esta App a ver qué te parece; creo que puede ser útil para lingüistas, o ¿cómo ves?")
 text = st.text_area("Ingrese el texto que desea analizar:")
 
 if st.button("Analizar"):
